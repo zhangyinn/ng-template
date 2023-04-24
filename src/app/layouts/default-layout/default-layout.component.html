@@ -1,0 +1,11 @@
+<div class="h-screen w-full flex flex-row">
+  <div class="flex-[1]">
+    11
+    <router-outlet></router-outlet>
+  </div>
+  <div class="h-12 w-full flex felx-row justify-between">
+    <div *ngFor="let menu of menus">
+      {{ menu.title }}
+    </div>
+  </div>
+</div>
